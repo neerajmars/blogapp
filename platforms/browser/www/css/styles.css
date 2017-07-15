@@ -1,0 +1,165 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+
+.statusbar-overlay {
+    background: #000000;
+}
+/****************************************************************************************************************
+**********************************************************************************************************************
+													New Css
+****************************************************************************************************************************
+*********************************************************************************************************************************/
+
+body{
+	color: #fff !important;
+	font-family: Roboto,"Helvetica Neue",sans-serif !important;
+}
+.sidebar-menu .menu-item {
+    background-color: transparent;
+    color: #fff;
+    height: 3.5em;
+    border-bottom: 1px solid;
+    border-color: rgba(255,255,255,.1);
+}
+.item-md {
+    padding-left: 16px;
+    padding-right: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    box-shadow: none;
+    transition: background-color .3s cubic-bezier(.4,0,.2,1);
+}
+.menu-inner{
+	box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+.top-header-image {
+    background-image: url(/assets/img/news-icon.jpg);
+    background-color: #29ccd2;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.user-img{
+	max-width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    position: relative;
+    top: -42px;
+    margin: 0 5px;
+    border: 3px solid;
+}
+.user-name {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+}
+.ion-md-home:before {
+    content: "\f30c";
+}
+.demo-card-header-pic .card-header {
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+}
+.card {
+    margin: 0px !important;
+    margin-bottom: 10px !important;
+}
+.badge{
+	border-radius: 0px;
+	padding: 12px 12px 29px 12px !important;
+}
+.time{
+	position: relative;
+    float: right;
+    right: 12px;
+    padding: 5px;
+    background: #222;
+    opacity: .8;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.blog-content{
+	padding: 10px 10px 0;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.blog-short{
+	font-size: 1.2em;
+	margin: 0 0 2px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #222;
+}
+.bookmark {
+    color: #29ccd2;
+    float: right;
+    font-size: 3rem;
+    position: relative;
+    top: -8px;
+}
+ion-fab.blog-icon {
+    top: 7% !important;
+}
+.heading {
+    font-weight: 600;
+    color: #000;
+    margin-top: 1rem;
+}
+.bookmark-block{
+    color: #29ccd2;
+    position: absolute!important;
+    font-size: 2.2em!important;
+    float: right;
+}
+.ion-avatar{
+	border-radius: 50%;
+    overflow: hidden;
+    width: 36px;
+    height: 36px;
+}
+ul>.item-block:first-child {
+    border-top: .55px solid #c8c7cc;
+}
+.comment-title{
+	color: #777;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.comment-subtitle{
+	overflow: inherit;
+    font-size: 1.4rem;
+    line-height: normal;
+    color: #8e9093;
+    margin: 0 0 2px;
+}
+.date-time{
+	float: right;
+    color: #777;
+    font-weight: 100;
+    font-size: 10px;
+}
+.comment-head {
+    color: #000;
+    font-size: 1.7rem;
+    margin: 0px 0;
+    font-weight: 700;
+}
+.text-input-ios {
+    margin: 11px 8px 11px 0;
+    padding: 0;
+    width: calc(100% - 8px);
+}
+.comment-textarea{
+	height: 46px;
+}
