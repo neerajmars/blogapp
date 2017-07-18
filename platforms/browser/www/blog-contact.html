@@ -1,0 +1,64 @@
+<!-- We don't need a full layout in this file because this page will be parsed with Ajax. -->
+
+<!-- Top Navbar-->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="#" class="back link">
+                <button class="back-button bar-button bar-button-md back-button-md bar-button-default bar-button-default-md show-back-button" ion-button="bar-button"><span class="button-inner"><ion-icon class="back-button-icon icon icon-md back-button-icon-md ion-md-arrow-back" role="img" aria-label="arrow back"></ion-icon><span class="back-button-text back-button-text-md"></span></span><div class="button-effect"></div></button>
+            </a>
+        </div>
+        <div class="center sliding">Content Us</div>
+        <div class="right">
+            <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+        </div>
+    </div>
+</div>
+<div class="pages">
+    <div data-page="about" class="page">
+       <div class="page-content">
+       <ion-row class="top row">
+              <ion-icon name="mail" role="img" class="icon icon-md ion-md-mail" aria-label="mail">...</ion-icon>
+            </ion-row>
+                      <form id="my-form" class="list-block store-data">
+                        <ul>
+                <li>
+                  <div class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title label content-label">Name</div>
+                      <div class="item-input">
+                        <!-- Make sure that input have "name attrobute" -->
+                        <input type="text" name="name" >
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title label content-label">E-mail</div>
+                      <div class="item-input">
+                        <!-- Make sure that input have "name attrobute" -->
+                        <input type="email" name="email" >
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title label content-message">Message</div>
+                      <div class="item-input">
+                        <!-- Make sure that input have "name attrobute" -->
+                        <textarea placeholder=""></textarea>
+
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+               <button color="secondary" ion-button="" type="submit" class="disable-hover button button-ios button-default button-default-ios button-ios-secondary active" disabled="" style="width: 100%;"><span class="button-inner">Post</span><div class="button-effect"></div></button>
+            </form>    
+        </div>
+    </div>
+</div>

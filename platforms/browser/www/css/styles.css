@@ -163,3 +163,57 @@ ul>.item-block:first-child {
 .comment-textarea{
 	height: 46px;
 }
+.ion-md-mail{
+	display: inline-block;
+    font-size: 9.2em;
+    padding: 20px 15px;
+}
+.top {
+    background-color: #da2e4f;
+}
+.content-label{
+	color: #000;
+    width: 17% !important;
+
+}
+.content-message{
+	color: #000;
+    width: 22% !important;
+    display: flex;
+    flex-direction: inherit;
+    align-items: inherit;
+    align-self: stretch;
+    text-overflow: ellipsis;
+    margin: -1% 0% 14% 0%;
+}
+.blog-setting{
+	border-bottom: 1px solid #d5d5d5;
+    height: 70px;
+    margin: 8px 4px 4px 0;
+    color: #222!important;
+    padding-left: 16px;
+    padding-right: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    box-shadow: none;
+    transition: background-color .3s cubic-bezier(.4,0,.2,1);
+}
+.blog-checkbox{
+	    margin-right: 14%;
+
+}
+.blog-checkbox1{
+	    margin-right: 30%;
+
+}
+.label-switch input[type=checkbox]:checked+.checkbox {
+    transform: translate3d(16px,0,0);
+    background-color: #29ccd2;
+}
+
+
+
+.logo-img{
+
+    margin-top: 60%;
+}
